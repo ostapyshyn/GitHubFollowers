@@ -33,6 +33,8 @@ class GFTextField: UITextField {
         font                        = UIFont.preferredFont(forTextStyle: .title2)
         adjustsFontSizeToFitWidth   = true
         minimumFontSize             = 12
+        //keyboardType                = .namePhonePad
+        returnKeyType               = .go
         
         backgroundColor             = .tertiarySystemBackground
         autocorrectionType          = .no
@@ -43,3 +45,6 @@ class GFTextField: UITextField {
     }
     
 }
+
+
+
