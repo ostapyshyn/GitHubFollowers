@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B53B3B924D6D35300B04FA5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53B3B824D6D35300B04FA5 /* NetworkManager.swift */; };
 		0B55506A24D1A94A005E38FF /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55506924D1A94A005E38FF /* GFTitleLabel.swift */; };
 		0B55506C24D1ACEB005E38FF /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55506B24D1ACEB005E38FF /* GFBodyLabel.swift */; };
 		0B55506E24D1B4B5005E38FF /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B55506D24D1B4B5005E38FF /* GFAlertVC.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B53B3B824D6D35300B04FA5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0B55506924D1A94A005E38FF /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		0B55506B24D1ACEB005E38FF /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		0B55506D24D1B4B5005E38FF /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B53B3B724D6D33400B04FA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0B53B3B824D6D35300B04FA5 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		0B6F615724D5A0F100ACF5B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		0B9A4EC224CAE30800135F91 /* GitHub Follwers */ = {
 			isa = PBXGroup;
 			children = (
+				0B53B3B724D6D33400B04FA5 /* Managers */,
 				0B9A4ED124CAE30C00135F91 /* Info.plist */,
 				0B6F615724D5A0F100ACF5B4 /* Model */,
 				0B72C43124D45DC400AF3052 /* Support */,
@@ -214,6 +225,7 @@
 				0B55506C24D1ACEB005E38FF /* GFBodyLabel.swift in Sources */,
 				0B6F615924D5A10700ACF5B4 /* Follower.swift in Sources */,
 				0B55506A24D1A94A005E38FF /* GFTitleLabel.swift in Sources */,
+				0B53B3B924D6D35300B04FA5 /* NetworkManager.swift in Sources */,
 				0B9A4EC424CAE30800135F91 /* AppDelegate.swift in Sources */,
 				0B9A4EC624CAE30800135F91 /* SceneDelegate.swift in Sources */,
 				0BCC6DCB24D0598B00FCE786 /* FollowerListVC.swift in Sources */,
